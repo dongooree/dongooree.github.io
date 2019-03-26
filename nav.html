@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+		<script
+		src="http://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous"></script>
+
+	<!-- 합쳐지고 최소화된 최신 CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- 부가적인 테마 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<meta charset="utf-8">
+	<title>성균관대학교 분반별 커뮤니티</title>
+</head>
+<body>
+	<div class="container">
+		<br>
+		<ul class="nav nav-tabs">
+				<li role="presentation"><a href="myFirstPage.html">HOME</a></li>
+				<li role="presentation" class="active"><a href="nav.html">과목게시판</a></li>
+		</ul>
+    
+	<form action="전송받을 대상">
+
+        <h2 class="text-left">분반 게시판</h2><br>
+	
+		<ul class="list-group">
+			<li class="list-group-item">
+				<span class="badge">7</span>
+				질문게시판
+			</li>
+			<li class="list-group-item">
+				<span class="badge">3</span>
+				자유게시판
+			</li>
+			<li class="list-group-item">
+				<span class="badge">1</span>
+				정보게시판
+			</li>
+		</ul>
+		<br><br>
+
+		<h3>새 글 작성하기</h3><br>
+		<select>
+			<option value="question">질문</option>
+			<option value="free">자유</option>
+			<option value="info">정보</option>
+		</select>
+		제목 : <input type="text" name="textTitle"> <br>
+ 	<br>
+
+		내용 : <br>
+		<textarea cols="100" rows="20"></textarea>
+		<br> <input type="submit">
+	</form><br>
+
+</div>
+
+
+</body>
